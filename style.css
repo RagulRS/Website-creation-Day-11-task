@@ -1,0 +1,234 @@
+header {
+    background-color: black;
+    height: 350px;
+    }
+    nav {
+        position: sticky;
+        width: 80%;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        padding: 20px 30px;
+    
+    }
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(133, 133, 148);
+    }
+    .head{
+        margin-top: 60px;
+       
+    }
+    .heading {
+        display:flex;
+        font-size: 45px;
+        justify-content: center;
+        font-family:serif;
+        color: aliceblue;
+        margin-bottom: 10px;
+        row-gap: 2px;
+        
+    
+    }
+    .heading2{
+        display:flex;
+        font-size: 15px;
+        justify-content: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        margin-top: 0px;
+    }
+    article{
+        width: auto;
+        height: 650px;
+    }
+    .container{
+        float: left;
+        position: relative;
+        width: 500px;
+        margin-top: 100px;
+        padding-left: 200px;
+        margin-bottom: 0px;
+        text-align: justify;
+        
+    }
+    
+    
+    .content-1{
+        
+        margin-top: 20px;
+        font-size: larger;
+    }
+    
+    .image {
+        float: right;
+        position:relative;
+        padding-right: 180px;
+        margin-top: 150px;
+        size: 30px 40px;
+        overflow:hidden;
+        
+    }
+    
+    
+    .button-content{
+        
+    display: flex;
+    gap: 1rem ;
+    justify-content: center;
+    margin-top: 30px;
+    }
+    aside{
+        width: auto;
+        height : auto;
+    }
+    
+    .btn1{
+        background-color: #bdc5c2; 
+    border: none;
+    border-radius: 9px;
+      color: rgb(54, 52, 52);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    
+    }
+    .btn2 {
+        background-color: #c81411; 
+      border: none;
+      border-radius: 9px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn3 {
+        background-color: #d38715; 
+      border: none;
+      border-radius: 9px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn1 >.btn2 >.bt3 :hover{
+    color: #bdc5c2;
+    }
+    .next{
+        display: flex;
+        background-color: black;
+        height: 150px;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        font-size: x-large;
+    
+    }
+    .awards{
+        display: flex;
+        margin-top: 50px;
+        border-bottom: 1px solid black;
+        height:30px;
+        
+       justify-content: center;
+       
+      
+       /* align-items: center; */
+       
+    }
+    .nav-btn{
+    
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+       background-color: white;
+    }
+    section{
+        height: 150px;
+        
+        margin-top: 50px;
+        margin-right: 50px;
+        
+    }
+    .list-awards{
+        display: flex;
+        padding:50px;
+        margin-right: 50px;
+        padding-left: 90px;
+       justify-content: space-around;
+       
+      
+    
+    }
+    .div1{
+        display: flex;
+       border: 1px outset grey;
+      box-shadow: 3px 4px 5px gray ;
+       margin-left: 100px;
+       border-radius: 6px;  ;
+        width:390px;
+        height:150px;
+       padding: 10px 5px 0px 10px ;
+       filter: drop-shadow(30px 100px 40px solid rgb(0, 0, 0));
+       font-family:serif;
+       text-align: left;
+       font-size: smaller;
+    }
+    .container-2{
+        display: flex;
+        margin-top: 80px;
+        gap: 300px;
+        justify-content: center;
+       
+        
+    
+    }
+    .container-3{
+        display: flex;
+        margin-top: 80px;
+        gap: 30px;
+        justify-content: center;
+        font-size: 15px;
+        
+    
+    }
+    footer{
+        display:flex;
+        gap: 100px;
+        background-color: black;
+        height:200px;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .about{
+        color: #feffff;
+        
+    }
+    .techs{
+        color: #feffff;
+    }
+    .disclaimer{
+        color: #feffff;
+    }
+    .name{
+        color:rgb(122, 122, 119)
+    }
+    .blue{
+        color: blue;
+    }
